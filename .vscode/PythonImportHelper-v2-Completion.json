@@ -450,7 +450,7 @@
         "kind": 2,
         "importPath": "run_RL",
         "description": "run_RL",
-        "peekOfCode": "def run_simulation(model_name=\"model\", steps=500):\n    traci.start([checkBinary(\"sumo-gui\"), \"-c\", \"configuration.sumocfg\",\n                 \"--tripinfo-output\", \"tripinfo.xml\"])\n    env = TrafficEnvironment()\n    env.initialize()  # Initialize after starting TraCI\n    agent = Agent(input_dims=4, n_actions=4)\n    agent.load(f'models/{model_name}.bin')\n    total_time = 0\n    step = 0\n    while step <= steps:",
+        "peekOfCode": "def run_simulation(model_name=\"model\", steps=500):\n    \"\"\"\n    Runs the traffic simulation using the specified model and number of steps.\n    Parameters:\n    model_name (str): The name of the model to load.\n    steps (int): The number of simulation steps to run.\n    \"\"\"\n    # Start the SUMO simulation with the specified configuration file\n    traci.start([checkBinary(\"sumo-gui\"), \"-c\", \"configuration.sumocfg\",\n                 \"--tripinfo-output\", \"tripinfo.xml\"])",
         "detail": "run_RL",
         "documentation": {}
     },
