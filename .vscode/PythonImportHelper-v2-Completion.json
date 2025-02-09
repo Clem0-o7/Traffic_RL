@@ -1,0 +1,520 @@
+[
+    {
+        "label": "print_function",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "absolute_import",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "absolute_import",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "print_function",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "bisect",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bisect",
+        "description": "bisect",
+        "detail": "bisect",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "optparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "optparse",
+        "description": "optparse",
+        "detail": "optparse",
+        "documentation": {}
+    },
+    {
+        "label": "sumolib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sumolib",
+        "description": "sumolib",
+        "detail": "sumolib",
+        "documentation": {}
+    },
+    {
+        "label": "checkBinary",
+        "importPath": "sumolib",
+        "description": "sumolib",
+        "isExtraImport": true,
+        "detail": "sumolib",
+        "documentation": {}
+    },
+    {
+        "label": "checkBinary",
+        "importPath": "sumolib",
+        "description": "sumolib",
+        "isExtraImport": true,
+        "detail": "sumolib",
+        "documentation": {}
+    },
+    {
+        "label": "checkBinary",
+        "importPath": "sumolib",
+        "description": "sumolib",
+        "isExtraImport": true,
+        "detail": "sumolib",
+        "documentation": {}
+    },
+    {
+        "label": "euclidean",
+        "importPath": "sumolib.miscutils",
+        "description": "sumolib.miscutils",
+        "isExtraImport": true,
+        "detail": "sumolib.miscutils",
+        "documentation": {}
+    },
+    {
+        "label": "naviDegree",
+        "importPath": "sumolib.geomhelper",
+        "description": "sumolib.geomhelper",
+        "isExtraImport": true,
+        "detail": "sumolib.geomhelper",
+        "documentation": {}
+    },
+    {
+        "label": "minAngleDegreeDiff",
+        "importPath": "sumolib.geomhelper",
+        "description": "sumolib.geomhelper",
+        "isExtraImport": true,
+        "detail": "sumolib.geomhelper",
+        "documentation": {}
+    },
+    {
+        "label": "traci",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traci",
+        "description": "traci",
+        "detail": "traci",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "Agent",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "TrafficEnvironment",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "torch.optim",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.optim",
+        "description": "torch.optim",
+        "detail": "torch.optim",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn.functional",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
+        "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidGenerator",
+        "kind": 6,
+        "importPath": "maps.randomTrips",
+        "description": "maps.randomTrips",
+        "peekOfCode": "class InvalidGenerator(Exception):\n    pass\n# assigns a weight to each edge using weight_fun and then draws from a discrete\n# distribution with these weights\nclass RandomEdgeGenerator:\n    def __init__(self, net, weight_fun):\n        self.net = net\n        self.weight_fun = weight_fun\n        self.cumulative_weights = []\n        self.total_weight = 0",
+        "detail": "maps.randomTrips",
+        "documentation": {}
+    },
+    {
+        "label": "RandomEdgeGenerator",
+        "kind": 6,
+        "importPath": "maps.randomTrips",
+        "description": "maps.randomTrips",
+        "peekOfCode": "class RandomEdgeGenerator:\n    def __init__(self, net, weight_fun):\n        self.net = net\n        self.weight_fun = weight_fun\n        self.cumulative_weights = []\n        self.total_weight = 0\n        for edge in self.net._edges:\n            # print edge.getID(), weight_fun(edge)\n            self.total_weight += weight_fun(edge)\n            self.cumulative_weights.append(self.total_weight)",
+        "detail": "maps.randomTrips",
+        "documentation": {}
+    },
+    {
+        "label": "RandomTripGenerator",
+        "kind": 6,
+        "importPath": "maps.randomTrips",
+        "description": "maps.randomTrips",
+        "peekOfCode": "class RandomTripGenerator:\n    def __init__(self, source_generator, sink_generator, via_generator, intermediate, pedestrians):\n        self.source_generator = source_generator\n        self.sink_generator = sink_generator\n        self.via_generator = via_generator\n        self.intermediate = intermediate\n        self.pedestrians = pedestrians\n    def get_trip(self, min_distance, max_distance, maxtries=100, junctionTaz=False):\n        for _ in range(maxtries):\n            source_edge = self.source_generator.get()",
+        "detail": "maps.randomTrips",
+        "documentation": {}
+    },
+    {
+        "label": "LoadedProps",
+        "kind": 6,
+        "importPath": "maps.randomTrips",
+        "description": "maps.randomTrips",
+        "peekOfCode": "class LoadedProps:\n    def __init__(self, fname):\n        self.weights = defaultdict(lambda: 0)\n        for edge in sumolib.output.parse_fast(fname, 'edge', ['id', 'value']):\n            self.weights[edge.id] = float(edge.value)\n    def __call__(self, edge):\n        return self.weights[edge.getID()]\ndef buildTripGenerator(net, options):\n    try:\n        max_length = 0",
+        "detail": "maps.randomTrips",
+        "documentation": {}
+    },
+    {
+        "label": "get_options",
+        "kind": 2,
+        "importPath": "maps.randomTrips",
+        "description": "maps.randomTrips",
+        "peekOfCode": "def get_options(args=None):\n    optParser = optparse.OptionParser()\n    optParser.add_option(\"-n\", \"--net-file\", dest=\"netfile\",\n                         help=\"define the net file (mandatory)\")\n    optParser.add_option(\"-a\", \"--additional-files\", dest=\"additional\",\n                         help=\"define additional files to be loaded by the router\")\n    optParser.add_option(\"-o\", \"--output-trip-file\", dest=\"tripfile\",\n                         default=\"trips.trips.xml\", help=\"define the output trip filename\")\n    optParser.add_option(\"-r\", \"--route-file\", dest=\"routefile\",\n                         help=\"generates route file with duarouter\")",
+        "detail": "maps.randomTrips",
+        "documentation": {}
+    },
+    {
+        "label": "get_prob_fun",
+        "kind": 2,
+        "importPath": "maps.randomTrips",
+        "description": "maps.randomTrips",
+        "peekOfCode": "def get_prob_fun(options, fringe_bonus, fringe_forbidden, max_length):\n    # fringe_bonus None generates intermediate way points\n    def edge_probability(edge):\n        if options.vclass and not edge.allows(options.vclass):\n            return 0  # not allowed\n        if fringe_bonus is None and edge.is_fringe() and not options.pedestrians:\n            return 0  # not suitable as intermediate way point\n        if (fringe_forbidden is not None and edge.is_fringe(getattr(edge, fringe_forbidden)) and\n                not options.pedestrians and\n                (options.allow_fringe_min_length is None or edge.getLength() < options.allow_fringe_min_length)):",
+        "detail": "maps.randomTrips",
+        "documentation": {}
+    },
+    {
+        "label": "buildTripGenerator",
+        "kind": 2,
+        "importPath": "maps.randomTrips",
+        "description": "maps.randomTrips",
+        "peekOfCode": "def buildTripGenerator(net, options):\n    try:\n        max_length = 0\n        for edge in net.getEdges():\n            if not edge.is_fringe():\n                max_length = max(max_length, edge.getLength())\n        forbidden_source_fringe = None if options.allow_fringe else \"_outgoing\"\n        forbidden_sink_fringe = None if options.allow_fringe else \"_incoming\"\n        source_generator = RandomEdgeGenerator(\n            net, get_prob_fun(options, \"_incoming\", forbidden_source_fringe, max_length))",
+        "detail": "maps.randomTrips",
+        "documentation": {}
+    },
+    {
+        "label": "is_walk_attribute",
+        "kind": 2,
+        "importPath": "maps.randomTrips",
+        "description": "maps.randomTrips",
+        "peekOfCode": "def is_walk_attribute(attr):\n    for cand in ['arrivalPos', 'speed=', 'duration=', 'busStop=']:\n        if cand in attr:\n            return True\n    return False\ndef is_persontrip_attribute(attr):\n    for cand in ['vTypes', 'modes']:\n        if cand in attr:\n            return True\n    return False",
+        "detail": "maps.randomTrips",
+        "documentation": {}
+    },
+    {
+        "label": "is_persontrip_attribute",
+        "kind": 2,
+        "importPath": "maps.randomTrips",
+        "description": "maps.randomTrips",
+        "peekOfCode": "def is_persontrip_attribute(attr):\n    for cand in ['vTypes', 'modes']:\n        if cand in attr:\n            return True\n    return False\ndef is_person_attribute(attr):\n    for cand in ['departPos', 'type']:\n        if cand in attr:\n            return True\n    return False",
+        "detail": "maps.randomTrips",
+        "documentation": {}
+    },
+    {
+        "label": "is_person_attribute",
+        "kind": 2,
+        "importPath": "maps.randomTrips",
+        "description": "maps.randomTrips",
+        "peekOfCode": "def is_person_attribute(attr):\n    for cand in ['departPos', 'type']:\n        if cand in attr:\n            return True\n    return False\ndef is_vehicle_attribute(attr):\n    for cand in ['depart', 'arrival', 'line', 'Number', 'type']:\n        if cand in attr:\n            return True\n    return False",
+        "detail": "maps.randomTrips",
+        "documentation": {}
+    },
+    {
+        "label": "is_vehicle_attribute",
+        "kind": 2,
+        "importPath": "maps.randomTrips",
+        "description": "maps.randomTrips",
+        "peekOfCode": "def is_vehicle_attribute(attr):\n    for cand in ['depart', 'arrival', 'line', 'Number', 'type']:\n        if cand in attr:\n            return True\n    return False\ndef split_trip_attributes(tripattrs, pedestrians, hasType):\n    # handle attribute values with a space\n    # assume that no attribute value includes an '=' sign\n    allattrs = []\n    for a in tripattrs.split():",
+        "detail": "maps.randomTrips",
+        "documentation": {}
+    },
+    {
+        "label": "split_trip_attributes",
+        "kind": 2,
+        "importPath": "maps.randomTrips",
+        "description": "maps.randomTrips",
+        "peekOfCode": "def split_trip_attributes(tripattrs, pedestrians, hasType):\n    # handle attribute values with a space\n    # assume that no attribute value includes an '=' sign\n    allattrs = []\n    for a in tripattrs.split():\n        if \"=\" in a:\n            allattrs.append(a)\n        else:\n            if len(allattrs) == 0:\n                print(\"Warning: invalid trip-attribute '%s'\" % a)",
+        "detail": "maps.randomTrips",
+        "documentation": {}
+    },
+    {
+        "label": "prependSpace",
+        "kind": 2,
+        "importPath": "maps.randomTrips",
+        "description": "maps.randomTrips",
+        "peekOfCode": "def prependSpace(s):\n    if len(s) == 0 or s[0] == \" \":\n        return s\n    else:\n        return \" \" + s\ndef main(options):\n    if not options.random:\n        random.seed(options.seed)\n    net = sumolib.net.readNet(options.netfile)\n    if options.min_distance > net.getBBoxDiameter() * (options.intermediate + 1):",
+        "detail": "maps.randomTrips",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "maps.randomTrips",
+        "description": "maps.randomTrips",
+        "peekOfCode": "def main(options):\n    if not options.random:\n        random.seed(options.seed)\n    net = sumolib.net.readNet(options.netfile)\n    if options.min_distance > net.getBBoxDiameter() * (options.intermediate + 1):\n        options.intermediate = int(\n            math.ceil(options.min_distance / net.getBBoxDiameter())) - 1\n        print((\"Warning: setting number of intermediate waypoints to %s to achieve a minimum trip length of \" +\n               \"%s in a network with diameter %.2f.\") % (\n            options.intermediate, options.min_distance, net.getBBoxDiameter()))",
+        "detail": "maps.randomTrips",
+        "documentation": {}
+    },
+    {
+        "label": "DUAROUTER",
+        "kind": 5,
+        "importPath": "maps.randomTrips",
+        "description": "maps.randomTrips",
+        "peekOfCode": "DUAROUTER = sumolib.checkBinary('duarouter')\nSOURCE_SUFFIX = \".src.xml\"\nSINK_SUFFIX = \".dst.xml\"\nVIA_SUFFIX = \".via.xml\"\ndef get_options(args=None):\n    optParser = optparse.OptionParser()\n    optParser.add_option(\"-n\", \"--net-file\", dest=\"netfile\",\n                         help=\"define the net file (mandatory)\")\n    optParser.add_option(\"-a\", \"--additional-files\", dest=\"additional\",\n                         help=\"define additional files to be loaded by the router\")",
+        "detail": "maps.randomTrips",
+        "documentation": {}
+    },
+    {
+        "label": "SOURCE_SUFFIX",
+        "kind": 5,
+        "importPath": "maps.randomTrips",
+        "description": "maps.randomTrips",
+        "peekOfCode": "SOURCE_SUFFIX = \".src.xml\"\nSINK_SUFFIX = \".dst.xml\"\nVIA_SUFFIX = \".via.xml\"\ndef get_options(args=None):\n    optParser = optparse.OptionParser()\n    optParser.add_option(\"-n\", \"--net-file\", dest=\"netfile\",\n                         help=\"define the net file (mandatory)\")\n    optParser.add_option(\"-a\", \"--additional-files\", dest=\"additional\",\n                         help=\"define additional files to be loaded by the router\")\n    optParser.add_option(\"-o\", \"--output-trip-file\", dest=\"tripfile\",",
+        "detail": "maps.randomTrips",
+        "documentation": {}
+    },
+    {
+        "label": "SINK_SUFFIX",
+        "kind": 5,
+        "importPath": "maps.randomTrips",
+        "description": "maps.randomTrips",
+        "peekOfCode": "SINK_SUFFIX = \".dst.xml\"\nVIA_SUFFIX = \".via.xml\"\ndef get_options(args=None):\n    optParser = optparse.OptionParser()\n    optParser.add_option(\"-n\", \"--net-file\", dest=\"netfile\",\n                         help=\"define the net file (mandatory)\")\n    optParser.add_option(\"-a\", \"--additional-files\", dest=\"additional\",\n                         help=\"define additional files to be loaded by the router\")\n    optParser.add_option(\"-o\", \"--output-trip-file\", dest=\"tripfile\",\n                         default=\"trips.trips.xml\", help=\"define the output trip filename\")",
+        "detail": "maps.randomTrips",
+        "documentation": {}
+    },
+    {
+        "label": "VIA_SUFFIX",
+        "kind": 5,
+        "importPath": "maps.randomTrips",
+        "description": "maps.randomTrips",
+        "peekOfCode": "VIA_SUFFIX = \".via.xml\"\ndef get_options(args=None):\n    optParser = optparse.OptionParser()\n    optParser.add_option(\"-n\", \"--net-file\", dest=\"netfile\",\n                         help=\"define the net file (mandatory)\")\n    optParser.add_option(\"-a\", \"--additional-files\", dest=\"additional\",\n                         help=\"define additional files to be loaded by the router\")\n    optParser.add_option(\"-o\", \"--output-trip-file\", dest=\"tripfile\",\n                         default=\"trips.trips.xml\", help=\"define the output trip filename\")\n    optParser.add_option(\"-r\", \"--route-file\", dest=\"routefile\",",
+        "detail": "maps.randomTrips",
+        "documentation": {}
+    },
+    {
+        "label": "get_waiting_time",
+        "kind": 2,
+        "importPath": "fixed",
+        "description": "fixed",
+        "peekOfCode": "def get_waiting_time(lanes):\n    \"\"\"\n    Calculate the total waiting time for a list of lanes.\n    Parameters:\n    lanes (list): List of lane IDs.\n    Returns:\n    int: Total waiting time for the lanes.\n    \"\"\"\n    waiting_time = 0\n    for lane in lanes:",
+        "detail": "fixed",
+        "documentation": {}
+    },
+    {
+        "label": "phaseDuration",
+        "kind": 2,
+        "importPath": "fixed",
+        "description": "fixed",
+        "peekOfCode": "def phaseDuration(junction, phase_time, phase_state):\n    \"\"\"\n    Set the phase duration and state for a traffic light junction.\n    Parameters:\n    junction (str): ID of the traffic light junction.\n    phase_time (int): Duration of the phase.\n    phase_state (str): State of the traffic light (e.g., \"GGGrrrrrrrrr\").\n    \"\"\"\n    traci.trafficlight.setRedYellowGreenState(junction, phase_state)\n    traci.trafficlight.setPhaseDuration(junction, phase_time)",
+        "detail": "fixed",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "fixed",
+        "description": "fixed",
+        "peekOfCode": "def run(gui=False, epochs=50, steps=500):\n    \"\"\"\n    Run the traffic simulation for a specified number of epochs and steps.\n    Parameters:\n    gui (bool): Whether to run the simulation with GUI.\n    epochs (int): Number of epochs to run the simulation.\n    steps (int): Number of steps per epoch.\n    \"\"\"\n    total_time_list = []\n    for e in range(epochs):",
+        "detail": "fixed",
+        "documentation": {}
+    },
+    {
+        "label": "get_options",
+        "kind": 2,
+        "importPath": "fixed",
+        "description": "fixed",
+        "peekOfCode": "def get_options():\n    \"\"\"\n    Parse command line options.\n    Returns:\n    optparse.Values: Parsed command line options.\n    \"\"\"\n    optParser = optparse.OptionParser()\n    optParser.add_option(\n        \"-e\",\n        dest='epochs',",
+        "detail": "fixed",
+        "documentation": {}
+    },
+    {
+        "label": "run_simulation",
+        "kind": 2,
+        "importPath": "run_RL",
+        "description": "run_RL",
+        "peekOfCode": "def run_simulation(model_name=\"model\", steps=500):\n    \"\"\"\n    Runs the traffic simulation using the specified model and number of steps.\n    Parameters:\n    model_name (str): The name of the model to load.\n    steps (int): The number of simulation steps to run.\n    \"\"\"\n    # Start the SUMO simulation with the specified configuration file\n    traci.start([checkBinary(\"sumo-gui\"), \"-c\", \"configuration.sumocfg\",\n                 \"--tripinfo-output\", \"tripinfo.xml\"])",
+        "detail": "run_RL",
+        "documentation": {}
+    },
+    {
+        "label": "Model",
+        "kind": 6,
+        "importPath": "train_RL",
+        "description": "train_RL",
+        "peekOfCode": "class Model(nn.Module):\n    def __init__(self, lr, input_dims, fc1_dims, fc2_dims, n_actions):\n        \"\"\"\n        Initialize the neural network model.\n        Args:\n            lr (float): Learning rate.\n            input_dims (int): Number of input dimensions.\n            fc1_dims (int): Number of neurons in the first fully connected layer.\n            fc2_dims (int): Number of neurons in the second fully connected layer.\n            n_actions (int): Number of possible actions.",
+        "detail": "train_RL",
+        "documentation": {}
+    },
+    {
+        "label": "Agent",
+        "kind": 6,
+        "importPath": "train_RL",
+        "description": "train_RL",
+        "peekOfCode": "class Agent:\n    def __init__(self, gamma, epsilon, lr, input_dims, fc1_dims, fc2_dims, batch_size, n_actions, junctions, max_memory_size=100000, epsilon_dec=5e-4, epsilon_end=0.05):\n        \"\"\"\n        Initialize the agent.\n        Args:\n            gamma (float): Discount factor.\n            epsilon (float): Exploration rate.\n            lr (float): Learning rate.\n            input_dims (int): Number of input dimensions.\n            fc1_dims (int): Number of neurons in the first fully connected layer.",
+        "detail": "train_RL",
+        "documentation": {}
+    },
+    {
+        "label": "get_vehicle_numbers",
+        "kind": 2,
+        "importPath": "train_RL",
+        "description": "train_RL",
+        "peekOfCode": "def get_vehicle_numbers(lanes):\n    \"\"\"\n    Get the number of vehicles in each lane.\n    Args:\n        lanes (list): List of lane IDs.\n    Returns:\n        dict: Dictionary with lane IDs as keys and vehicle counts as values.\n    \"\"\"\n    vehicle_per_lane = dict()\n    for l in lanes:",
+        "detail": "train_RL",
+        "documentation": {}
+    },
+    {
+        "label": "get_waiting_time",
+        "kind": 2,
+        "importPath": "train_RL",
+        "description": "train_RL",
+        "peekOfCode": "def get_waiting_time(lanes):\n    \"\"\"\n    Get the total waiting time for all vehicles in the given lanes.\n    Args:\n        lanes (list): List of lane IDs.\n    Returns:\n        int: Total waiting time.\n    \"\"\"\n    waiting_time = 0\n    for lane in lanes:",
+        "detail": "train_RL",
+        "documentation": {}
+    },
+    {
+        "label": "phaseDuration",
+        "kind": 2,
+        "importPath": "train_RL",
+        "description": "train_RL",
+        "peekOfCode": "def phaseDuration(junction, phase_time, phase_state):\n    \"\"\"\n    Set the phase duration and state for a traffic light.\n    Args:\n        junction (str): Traffic light ID.\n        phase_time (int): Duration of the phase.\n        phase_state (str): State of the traffic light.\n    \"\"\"\n    traci.trafficlight.setRedYellowGreenState(junction, phase_state)\n    traci.trafficlight.setPhaseDuration(junction, phase_time)",
+        "detail": "train_RL",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "train_RL",
+        "description": "train_RL",
+        "peekOfCode": "def run(train=True, model_name=\"model\", epochs=50, steps=500):\n    \"\"\"\n    Execute the TraCI control loop.\n    Args:\n        train (bool, optional): Whether to train the model. Defaults to True.\n        model_name (str, optional): Name of the model file. Defaults to \"model\".\n        epochs (int, optional): Number of epochs. Defaults to 50.\n        steps (int, optional): Number of steps per epoch. Defaults to 500.\n    \"\"\"\n    best_time = np.inf",
+        "detail": "train_RL",
+        "documentation": {}
+    },
+    {
+        "label": "get_options",
+        "kind": 2,
+        "importPath": "train_RL",
+        "description": "train_RL",
+        "peekOfCode": "def get_options():\n    \"\"\"\n    Parse command line options.\n    Returns:\n        optparse.Values: Parsed options.\n    \"\"\"\n    optParser = optparse.OptionParser()\n    optParser.add_option(\n        \"-m\",\n        dest='model_name',",
+        "detail": "train_RL",
+        "documentation": {}
+    }
+]
