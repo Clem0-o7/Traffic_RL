@@ -2,7 +2,6 @@ import os
 import sys
 import optparse
 import traci
-import numpy as np
 import matplotlib.pyplot as plt
 
 # SUMO_HOME setup
@@ -15,16 +14,41 @@ else:
 from sumolib import checkBinary
 
 def get_waiting_time(lanes):
+    """
+    Calculate the total waiting time for a list of lanes.
+    
+    Parameters:
+    lanes (list): List of lane IDs.
+    
+    Returns:
+    int: Total waiting time for the lanes.
+    """
     waiting_time = 0
     for lane in lanes:
         waiting_time += traci.lane.getWaitingTime(lane)
     return waiting_time
 
 def phaseDuration(junction, phase_time, phase_state):
+    """
+    Set the phase duration and state for a traffic light junction.
+    
+    Parameters:
+    junction (str): ID of the traffic light junction.
+    phase_time (int): Duration of the phase.
+    phase_state (str): State of the traffic light (e.g., "GGGrrrrrrrrr").
+    """
     traci.trafficlight.setRedYellowGreenState(junction, phase_state)
     traci.trafficlight.setPhaseDuration(junction, phase_time)
 
 def run(gui=False, epochs=50, steps=500):
+    """
+    Run the traffic simulation for a specified number of epochs and steps.
+    
+    Parameters:
+    gui (bool): Whether to run the simulation with GUI.
+    epochs (int): Number of epochs to run the simulation.
+    steps (int): Number of steps per epoch.
+    """
     total_time_list = []
 
     for e in range(epochs):
@@ -86,6 +110,12 @@ def run(gui=False, epochs=50, steps=500):
         plt.show()
 
 def get_options():
+    """
+    Parse command line options.
+    
+    Returns:
+    optparse.Values: Parsed command line options.
+    """
     optParser = optparse.OptionParser()
     optParser.add_option(
         "-e",

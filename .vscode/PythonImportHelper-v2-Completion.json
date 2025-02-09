@@ -169,15 +169,6 @@
         "documentation": {}
     },
     {
-        "label": "numpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
-        "documentation": {}
-    },
-    {
         "label": "matplotlib.pyplot",
         "kind": 6,
         "isExtraImport": true,
@@ -209,6 +200,15 @@
         "importPath": "time",
         "description": "time",
         "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
         "documentation": {}
     },
     {
@@ -414,7 +414,7 @@
         "kind": 2,
         "importPath": "fixed",
         "description": "fixed",
-        "peekOfCode": "def get_waiting_time(lanes):\n    waiting_time = 0\n    for lane in lanes:\n        waiting_time += traci.lane.getWaitingTime(lane)\n    return waiting_time\ndef phaseDuration(junction, phase_time, phase_state):\n    traci.trafficlight.setRedYellowGreenState(junction, phase_state)\n    traci.trafficlight.setPhaseDuration(junction, phase_time)\ndef run(gui=False, epochs=50, steps=500):\n    total_time_list = []",
+        "peekOfCode": "def get_waiting_time(lanes):\n    \"\"\"\n    Calculate the total waiting time for a list of lanes.\n    Parameters:\n    lanes (list): List of lane IDs.\n    Returns:\n    int: Total waiting time for the lanes.\n    \"\"\"\n    waiting_time = 0\n    for lane in lanes:",
         "detail": "fixed",
         "documentation": {}
     },
@@ -423,7 +423,7 @@
         "kind": 2,
         "importPath": "fixed",
         "description": "fixed",
-        "peekOfCode": "def phaseDuration(junction, phase_time, phase_state):\n    traci.trafficlight.setRedYellowGreenState(junction, phase_state)\n    traci.trafficlight.setPhaseDuration(junction, phase_time)\ndef run(gui=False, epochs=50, steps=500):\n    total_time_list = []\n    for e in range(epochs):\n        if gui:\n            traci.start([checkBinary(\"sumo-gui\"), \"-c\", \"configuration.sumocfg\", \"--tripinfo-output\", \"tripinfo.xml\"])\n        else:\n            traci.start([checkBinary(\"sumo\"), \"-c\", \"configuration.sumocfg\", \"--tripinfo-output\", \"tripinfo.xml\"])",
+        "peekOfCode": "def phaseDuration(junction, phase_time, phase_state):\n    \"\"\"\n    Set the phase duration and state for a traffic light junction.\n    Parameters:\n    junction (str): ID of the traffic light junction.\n    phase_time (int): Duration of the phase.\n    phase_state (str): State of the traffic light (e.g., \"GGGrrrrrrrrr\").\n    \"\"\"\n    traci.trafficlight.setRedYellowGreenState(junction, phase_state)\n    traci.trafficlight.setPhaseDuration(junction, phase_time)",
         "detail": "fixed",
         "documentation": {}
     },
@@ -432,7 +432,7 @@
         "kind": 2,
         "importPath": "fixed",
         "description": "fixed",
-        "peekOfCode": "def run(gui=False, epochs=50, steps=500):\n    total_time_list = []\n    for e in range(epochs):\n        if gui:\n            traci.start([checkBinary(\"sumo-gui\"), \"-c\", \"configuration.sumocfg\", \"--tripinfo-output\", \"tripinfo.xml\"])\n        else:\n            traci.start([checkBinary(\"sumo\"), \"-c\", \"configuration.sumocfg\", \"--tripinfo-output\", \"tripinfo.xml\"])\n        print(f\"epoch: {e}\")\n        select_lane = [\n            [\"yyyrrrrrrrrr\", \"GGGrrrrrrrrr\"],",
+        "peekOfCode": "def run(gui=False, epochs=50, steps=500):\n    \"\"\"\n    Run the traffic simulation for a specified number of epochs and steps.\n    Parameters:\n    gui (bool): Whether to run the simulation with GUI.\n    epochs (int): Number of epochs to run the simulation.\n    steps (int): Number of steps per epoch.\n    \"\"\"\n    total_time_list = []\n    for e in range(epochs):",
         "detail": "fixed",
         "documentation": {}
     },
@@ -441,7 +441,7 @@
         "kind": 2,
         "importPath": "fixed",
         "description": "fixed",
-        "peekOfCode": "def get_options():\n    optParser = optparse.OptionParser()\n    optParser.add_option(\n        \"-e\",\n        dest='epochs',\n        type='int',\n        default=50,\n        help=\"Number of epochs\",\n    )\n    optParser.add_option(",
+        "peekOfCode": "def get_options():\n    \"\"\"\n    Parse command line options.\n    Returns:\n    optparse.Values: Parsed command line options.\n    \"\"\"\n    optParser = optparse.OptionParser()\n    optParser.add_option(\n        \"-e\",\n        dest='epochs',",
         "detail": "fixed",
         "documentation": {}
     },
