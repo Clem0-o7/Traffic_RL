@@ -16,7 +16,7 @@ This project aims to optimize traffic light control using reinforcement learning
 1. Install SUMO from [here](https://www.eclipse.org/sumo/).
 2. Install the required Python packages:
     ```bash
-    pip install torch numpy matplotlib
+    pip install -r requirements.txt
     ```
 
 ## Usage
