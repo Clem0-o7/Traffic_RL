@@ -9,7 +9,7 @@ This project aims to optimize traffic light control using reinforcement learning
 - PyTorch
 - NumPy
 - Matplotlib
-Refer requirements.txt for versions
+-Refer requirements.txt for versions
 
 ## Installation
 
